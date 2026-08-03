@@ -1,0 +1,30 @@
+# Proprietary or rebuilt application material
+*.apk
+*.aab
+*.apks
+*.xapk
+*.keystore
+*.jks
+*.pem
+*.p12
+*.zip
+
+yoosee_work/
+*-enterprise-backup/
+dist/
+build/
+
+# Local secrets
+.env
+*.properties.local
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
