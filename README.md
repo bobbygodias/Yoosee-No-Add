@@ -78,7 +78,7 @@ python3 tools/audit_tree.py yoosee_work
 Build:
 
 ```bash
-./scripts/build.sh yoosee_work dist/Yoosee-6.32.3-Enterprise
+bash scripts/build.sh yoosee_work dist/Yoosee-6.32.3-Enterprise
 ```
 
 For optional signing, provide environment variables:
@@ -88,7 +88,7 @@ KEYSTORE=/secure/path/enterprise-test.keystore \
 KEY_ALIAS=enterprise-test \
 KEYSTORE_PASS='your-password' \
 KEY_PASS='your-password' \
-./scripts/build.sh yoosee_work dist/Yoosee-6.32.3-Enterprise
+bash scripts/build.sh yoosee_work dist/Yoosee-6.32.3-Enterprise
 ```
 
 ## Installation warning
@@ -115,4 +115,4 @@ Yoosee and related names may be trademarks of their respective owners. This inde
 
 ## License
 
-Project-authored scripts and documentation are released under the [MIT License](LICENSE). The original application and all vendor code remain under their respective owners' terms.
+Project-authored scripts and documentation are dedicated to the public domain under [CC0 1.0 Universal](LICENSE). The original application and all vendor code remain under their respective owners' terms.
